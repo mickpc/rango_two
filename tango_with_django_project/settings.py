@@ -6,6 +6,8 @@ PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
 PROJECT_PATH = os.path.abspath(PROJECT_PATH)
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 
+BASE_DIR = '/home/michael/python/tango_with_django_project/'
+
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -21,6 +23,7 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
     #'/home/mickpc/rango_two/rango/templates',
 )
+
 
 
 DEBUG = True
@@ -84,7 +87,7 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
-STATIC_ROOT = ''
+STATIC_ROOT = '/tango_with_django_project/static/'
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
@@ -180,3 +183,16 @@ LOGGING = {
         },
     }
 }
+STATIC_PATH = os.path.join(PROJECT_PATH,'static')
+
+STATIC_URL = '/static/' # You may find this is already defined as such.
+
+
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static/"),
+    '/tango_with_django/rango/static/',
+)
+
+
+
