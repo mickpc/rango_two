@@ -6,7 +6,7 @@ PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
 PROJECT_PATH = os.path.abspath(PROJECT_PATH)
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 
-BASE_DIR = '/home/michael/python/tango_with_django_project/'
+BASE_DIR = '/home/michael/python/tango_with_django_project/',
 
 
 TEMPLATE_DIRS = (
@@ -94,11 +94,7 @@ STATIC_ROOT = '/tango_with_django_project/static/'
 STATIC_URL = '/static/'
 
 # Additional locations of static files
-STATICFILES_DIRS = (
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
-)
+
 
 # List of finder classes that know how to find static files in
 # various locations.
@@ -190,8 +186,8 @@ STATIC_URL = '/static/' # You may find this is already defined as such.
 
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static/"),
-    '/tango_with_django/rango/static/',
+    os.path.join(BASE_DIR, "/static/"),
+    '/home/python/tango_with_django/static',
 )
 
 
