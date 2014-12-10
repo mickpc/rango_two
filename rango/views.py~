@@ -1,6 +1,6 @@
 from django.http import HttpResponse
-
+from rango.models import Category
 def index(request):
-    return HttpResponse("Rango says hello world!")
+    return HttpResponse("mick says hello world!")
 
 # Create your views here.
