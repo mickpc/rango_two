@@ -12,7 +12,17 @@
         <h1>Rango says...</h1>
         hello world! <strong>{{ boldmessage }}</strong><br />
         <a href="/rango/about/">About</a><br />
+
         <img src="{% static 'myfig.png' %}" alt="Picture of Rango" /> <!-- New line -->
-    </body>
+    
+<script>
+			document.write ('<p>Current time is: <span id="date-time">', new 		Date		().toLocaleString(), '<\/span>.<\/p>')
+			if (document.getElementById) onload = function () {
+			setInterval ("document.getElementById ('date-time').firstChild.data = new 				Date().toLocaleString()", 50)
+}
+		
+
+</script>
+</body>
 
 </html>
