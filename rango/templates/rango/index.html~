@@ -5,13 +5,13 @@
 <html>
 
     <head>
-        <title>Rango</title>
+        <title>Weather station</title>
+<META HTTP-EQUIV="refresh" CONTENT="10">
     </head>
 
     <body>
-        <h1>Rango says...</h1>
-        hello world! <strong>{{ boldmessage }}</strong><br />
-        <a href="/rango/about/">About</a><br />
+        <h1>The Current Temprature is:</h1>
+        
 
         <img src="{% static 'myfig.png' %}" alt="Picture of Rango" /> <!-- New line -->
     
