@@ -1,12 +1,13 @@
 # Django settings for tango_with_django_project project.
 
 import os
+ROOT_PATH = os.path.dirname(__file__)
 SETTINGS_DIR = os.path.dirname(__file__)
 PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
 PROJECT_PATH = os.path.abspath(PROJECT_PATH)
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 
-BASE_DIR = '/home/michael/python/tango_with_django_project/',
+BASE_DIR = '/home/michael/python/tango_with_django_project',
 
 
 TEMPLATE_DIRS = (
@@ -87,7 +88,7 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
-STATIC_ROOT = '/tango_with_django_project/static/'
+STATIC_ROOT = os.path.join(ROOT_PATH, "static")
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
@@ -186,8 +187,8 @@ STATIC_URL = '/static/' # You may find this is already defined as such.
 
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "/static/"),
-    '/home/python/tango_with_django/static',
+    #os.path.join(BASE_DIR, "/static/"),
+    '/home/michael/python/tango_with_django_project/static/',
 )
 
 
