@@ -18,4 +18,6 @@ urlpatterns = patterns('',
     # url(r'^admin/', include(admin.site.urls)),
 
     url(r'^rango/', include('rango.urls')), # ADD THIS NEW TUPLE!
+    url(r'^about/', include('about.urls')), # ADD THIS NEW TUPLE!
 ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
