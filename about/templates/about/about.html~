@@ -5,10 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Design by Michael Careuy</title>
+<title>Design by Michael Carey</title>
 
 <link href="{{STATIC_URL}}style.css" rel="stylesheet" type="text/css" />
-
+<META HTTP-EQUIV="refresh" CONTENT="15">
 </head>
 
 <body>
@@ -36,6 +36,8 @@
 <div id="content">
 <div id="mainpage">
 <h2>Welcome to the Solar Montior Home Page!</h2>
+
+<p>Below you will find the graph of the power production figure for the last 24 hours. This is the power output for the Solar Generating Plant in total for the daylight hours.</p>
 
 
 <img src="{% static 'myfig.png' %}" alt="Picture of Rango" width = "480" height = "400" />
