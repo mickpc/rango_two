@@ -8,7 +8,7 @@
 <title>Design by Michael Carey</title>
 
 <link href="{{STATIC_URL}}style.css" rel="stylesheet" type="text/css" />
-<META HTTP-EQUIV="refresh" CONTENT="15">
+<META HTTP-EQUIV="refresh" CONTENT="300">
 </head>
 
 <body>
@@ -37,7 +37,7 @@
 <div id="mainpage">
 <h2>Welcome to the Solar Montior Home Page!</h2>
 
-<p>Below you will find the graph of the power production figure for the last 24 hours. This is the power output for the Solar Generating Plant in total for the daylight hours.</p>
+<p>Below you will find the graph of the power production figure for the last 12 hours. This is the power output for the Solar Generating Plant in total for the daylight hours.</p>
 
 
 <img src="{% static 'myfig.png' %}" alt="Picture of Rango" width = "480" height = "400" />
@@ -73,7 +73,7 @@
 
 </div>
 <div id="footer">
-<p>Copyright &copy; 2013 your sitename| <a href="#">Sitemap</a></p>
+<p>Site design My Michael C| <a href="#">Sitemap</a></p>
 </div>
 
 

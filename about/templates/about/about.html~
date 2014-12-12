@@ -39,6 +39,7 @@
 
 <p>The Weather Station project was initiated to monitor the weather patterns for a particular location over the internet.</p>
 <p>It is an example of using internet connectivity along with hardware and software design to accomplish an overall system design to suit an application.</p>
+<p>The monitor is located in rural NSW, Australia. Near the Murray River.</p>
 
 
 
@@ -74,7 +75,7 @@
 
 </div>
 <div id="footer">
-<p>Copyright &copy; 2013 your sitename| <a href="#">Sitemap</a></p>
+<p>Site Design by Michael C| <a href="#">Sitemap</a></p>
 </div>
 
 
