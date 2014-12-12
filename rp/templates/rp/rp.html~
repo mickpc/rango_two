@@ -38,8 +38,9 @@
 <h2>The Raspberry Pi - A Credit Card Sized Computer</h2>
 
 <p>The Raspberry Pi is computer the size of a credit card. As well as being a compact computer it is also a very economical computer. The origional version was marketed as costing $35 (depending of course on your location).</p>
-<p>All you need to get a Raspberry Pi up and running is a Secure Digital card (SD) and a copy of the (free) open source operating system. The download links can be found <a href="http://www.raspberrypi.org/downloads/">Here</a> </p> 
+<p>All you need to get a Raspberry Pi up and running is a Secure Digital card (SD) and a copy of the (free) open source operating system. The download links can be found <a href="http://www.raspberrypi.org/downloads/">Here.</a> </p> 
 
+<img src="{% static 'rp.jpg' %}" alt="Raspberry Pi" width = "400" height = "300" />
 
 
  </p>
