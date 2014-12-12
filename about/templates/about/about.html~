@@ -37,9 +37,10 @@
 <div id="mainpage">
 <h2>About the Weather Station Monitor</h2>
 
-<p>The Weather Station project was initiated to monitor the weather patterns for a particular location over the internet.</p>
-<p>It is an example of using internet connectivity along with hardware and software design to accomplish an overall system design to suit an application.</p>
+<p>The Weather Station project was initiated to monitor the weather patterns for the local area.</p>
 <p>The monitor is located in rural NSW, Australia. Near the Murray River.</p>
+<p>It is an example of using internet connectivity along with hardware and software design to accomplish an overall system design to suit an application.</p>
+
 
 
 
@@ -75,7 +76,7 @@
 
 </div>
 <div id="footer">
-<p>Site Design by Michael C| <a href="#">Sitemap</a></p>
+<p>Site design by Michael C| <a href="#">Sitemap</a></p>
 </div>
 
 

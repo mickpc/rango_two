@@ -34,11 +34,11 @@ x = [1,2,3,4,5,6,7,8,9,10]
 y = [random.randint(1,10) for _ in range(10)]
 plt.plot(x, y, 'r--')
 plt.xlabel('Time (hours)')
-plt.ylabel('Power')
-plt.title(r'Power produced by the Solar Plant')
+plt.ylabel('Temperature')
+plt.title(r'24 hour history of temperature')
 	
 # Tweak spacing to prevent clipping of ylabel
-plt.subplots_adjust(left=0.15)
+#plt.subplots_adjust(left=0.15)
 plt.plot()
 plt.savefig('myfig')
 	

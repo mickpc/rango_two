@@ -37,12 +37,17 @@
 <div id="mainpage">
 <h2>Welcome to the Weather Station Home Page!</h2>
 
-<p>Below you will find the graph of the temperture for the last 24 hours. This is the current temerature outside for the weather stations locality (rural NSW).</p>
+<p>Below you will find the graph of the temperture for the last 24 hours. This is the current temerature outside for the weather stations locality (rural NSW).
 
 
-<img src="{% static 'myfig.png' %}" alt="Picture of Rango" width = "480" height = "400" />
+<img src="{% static 'myfig.png' %}" alt="Temperature Graphic" width = "480" height = "400" />
 
- 
+ </p>
+<p>The function of the weather station is to measure, compute, transmit and display the current weather conditions for the local area.</p>
+
+<p>
+<p>
+<p>
 
 
 </div>
@@ -52,15 +57,18 @@
 <div id="sidebarcontents"> 
 <ul id="menu">
 <li>
-  <h2>Our Services</h2>
+  <h2>Station Functions</h2>
 </li>
 <li>
-	<ul><li><a href="#">Link a   Website</a></li>
-				  			<li><a href="#">Website Link B</a></li>
+	<ul><li><a href="/home/">Home (Temperature)</a></li>
+				  			<li><a href="/humidity/">Humidity</a></li>
 				 
-							<li><a href="#">Website Link C</a></li>
-							<li> <a href="#">Small Businesses Website</a></li>
-							<li><a href="#">Flyer Website</a></li>
+							<li><a href="/wind_speed/">Wind Speed</a></li>
+							<li><a href="/direction/">Wind Direction</a></li>
+							<li><a href="/rain/">Rain Fall</a></li>
+							<li> <a href="/pressure/">Barometric Pressure</a></li>
+							<li><a href="/solar/">Solar Radiation</a></li>
+							<li><a href="/summary/">Summary</a></li>
 			</ul>
 </li>
 </ul>
