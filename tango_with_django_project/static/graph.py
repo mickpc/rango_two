@@ -33,9 +33,9 @@ import random
 x = [1,2,3,4,5,6,7,8,9,10]
 y = [random.randint(1,10) for _ in range(10)]
 plt.plot(x, y, 'r--')
-plt.xlabel('Smarts')
-plt.ylabel('Probability')
-plt.title(r'Histogram of IQ: $\mu=100$, $\sigma=15$')
+plt.xlabel('Time (hours)')
+plt.ylabel('Power')
+plt.title(r'Power produced by the Solar Plant')
 	
 # Tweak spacing to prevent clipping of ylabel
 plt.subplots_adjust(left=0.15)
