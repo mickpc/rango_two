@@ -12,19 +12,19 @@
 </head>
 
 <body>
-<div class="style3"></div><div class="style_2"><span class="style3"><a href="http://www.zonnebank-studio-vergelijk.nl" title="Zonnebank Zonnestudio"><strong>Zonnebank zonnestudio</strong></a></span></div>
+<div class="style3"></div><div class="style_2"><span class="style3"><a href="/home/" title="Home"><strong>Home</strong></a></span></div>
 <div id="wrap">
 <div id="topbar">
   <h1 id="sitename"><a href="http://www.zonnebank-studio-vergelijk.nl" target="_blank">The Weather Station Project</a></h1>
   <div id="menus">
   <ul id="topmenu">
-<li  class="active"><a href="/rango/">Home</a>
+<li  class="active"><a href="/home/">Home</a>
 </li>
 <li><a href="/about/">About the project</a>
 </li>
-<li><a href="">Power Production</a>
+<li><a href="/power/">Raspberry Pi</a>
 </li>
-<li><a href="#">products</a>
+<li><a href="#">Misc</a>
 </li>
 <li><a href="#">Services</a>
 </li>
@@ -37,7 +37,7 @@
 <div id="mainpage">
 <h2>Welcome to the Weather Station Home Page!</h2>
 
-<p>Below you will find the graph of the temperture for the last 24 hours. This is the current temerature outside for the weather stations locality (rural NSW). <b> Please Note </b> the system is running a dummy program for to simulate temperature data. No actual fucntions are in place.</p>
+<p>Below you will find the graph of the temperture for the last 24 hours. This is the current temerature outside for the weather stations locality (rural NSW). <b> Please Note </b> the system is running a dummy program for to simulate temperature data. No actual hardware functions are in place.</p>
 
 
 <img src="{% static 'myfig.png' %}" alt="Temperature Graphic" width = "480" height = "400" />

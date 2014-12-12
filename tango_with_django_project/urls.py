@@ -20,5 +20,6 @@ urlpatterns = patterns('',
     url(r'^rango/', include('rango.urls')), # ADD THIS NEW TUPLE!
     url(r'^about/', include('about.urls')), # ADD THIS NEW TUPLE!
 	url(r'^home/', include('home.urls')), # ADD THIS NEW TUPLE!
+	url(r'^rp/', include('rp.urls')), # ADD THIS NEW TUPLE!
 ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 

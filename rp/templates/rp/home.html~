@@ -8,21 +8,21 @@
 <title>Design by Michael Carey</title>
 
 <link href="{{STATIC_URL}}style.css" rel="stylesheet" type="text/css" />
-<META HTTP-EQUIV="refresh" CONTENT="600">
+<META HTTP-EQUIV="refresh" CONTENT="300">
 </head>
 
 <body>
-<div class="style3"></div><div class="style_2"><span class="style3"><a href="http://www.zonnebank-studio-vergelijk.nl" title="Zonnebank Zonnestudio"><strong>Zonnebank zonnestudio</strong></a></span></div>
+<div class="style3"></div><div class="style_2"><span class="style3"><a href="/home/" title="Home"><strong>Home</strong></a></span></div>
 <div id="wrap">
 <div id="topbar">
   <h1 id="sitename"><a href="http://www.zonnebank-studio-vergelijk.nl" target="_blank">The Weather Station Project</a></h1>
   <div id="menus">
   <ul id="topmenu">
-<li  class="active"><a href="/home/">Home</a>
+<li  class="active"><a href="/rango/">Home</a>
 </li>
 <li><a href="/about/">About the project</a>
 </li>
-<li><a href="/rp/">Raspberry Pi</a>
+<li><a href="/power/">Power Production</a>
 </li>
 <li><a href="#">products</a>
 </li>
@@ -35,17 +35,17 @@
 
 <div id="content">
 <div id="mainpage">
-<h2>About the Weather Station Monitor</h2>
+<h2>Welcome to the Weather Station Home Page!</h2>
 
-<p>The Weather Station project was initiated to monitor the weather patterns for the local area. The monitor is located in rural NSW, Australia. Near the Murray River.</p>
-<p>It is an example of using internet connectivity along with hardware and software design to accomplish an overall system designed, to suit an application.</p>
-<p>The Weather Station Project is implemented using the Raspberry Pi, which is a credit card sized computer. <a href="http://www.raspberrypi.org/"> RP Home Page </a> The RP has aquired many fans, who are interested in experimenting with software and hardware. </p> <p> The hardware is based on the very successful ARM chipset and, typically, the software is a standard Linux operating system, supported nearly all common programming and scripting languages. </p>
+<p>Below you will find the graph of the temperture for the last 24 hours. This is the current temerature outside for the weather stations locality (rural NSW). <b> Please Note </b> the system is running a dummy program for to simulate temperature data. No actual hardware functions are in place.</p>
 
 
+<img src="{% static 'myfig.png' %}" alt="Temperature Graphic" width = "480" height = "400" />
 
-
-
- 
+ </p>
+<p>
+<p>
+<p>
 
 
 </div>

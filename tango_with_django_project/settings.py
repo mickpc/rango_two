@@ -134,6 +134,7 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
     '/home/michael/python/about/templates',
     '/home/michael/python/home/templates',
+	'/home/michael/python/rp/templates',
 )
 
 INSTALLED_APPS = (
@@ -146,6 +147,7 @@ INSTALLED_APPS = (
 	'rango',
 	'about',
 	'home',
+	'rp',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
@@ -193,6 +195,8 @@ STATICFILES_DIRS = (
     '/home/michael/python/tango_with_django_project/static/',
 	'/home/michael/python/about/static/',
 	'/home/michael/python/home/static/',
+	'/home/michael/python/rp/static/',
+	
 )
 
 

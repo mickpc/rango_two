@@ -15,14 +15,14 @@
 <div class="style3"></div><div class="style_2"><span class="style3"><a href="http://www.zonnebank-studio-vergelijk.nl" title="Zonnebank Zonnestudio"><strong>Zonnebank zonnestudio</strong></a></span></div>
 <div id="wrap">
 <div id="topbar">
-  <h1 id="sitename"><a href="http://www.zonnebank-studio-vergelijk.nl" target="_blank">The Solar Monitor Project</a></h1>
+  <h1 id="sitename"><a href="http://www.zonnebank-studio-vergelijk.nl" target="_blank">The Weather Station Project</a></h1>
   <div id="menus">
   <ul id="topmenu">
 <li  class="active"><a href="/home/">Home</a>
 </li>
 <li><a href="/about/">About the project</a>
 </li>
-<li><a href="">Power Production</a>
+<li><a href="/rp/">Raspberry Pi</a>
 </li>
 <li><a href="#">products</a>
 </li>
@@ -37,10 +37,9 @@
 <div id="mainpage">
 <h2>About the Weather Station Monitor</h2>
 
-<p>The Weather Station project was initiated to monitor the weather patterns for the local area.</p>
-<p>The monitor is located in rural NSW, Australia. Near the Murray River.</p>
+<p>The Weather Station project was initiated to monitor the weather patterns for the local area. The monitor is located in rural NSW, Australia. Near the Murray River.</p>
 <p>It is an example of using internet connectivity along with hardware and software design to accomplish an overall system design to suit an application.</p>
-<p>The Weather Station Project is implemented using the Raspberry Pi, which is a credit card sized computer. <a href="http://www.raspberrypi.org/"> RP Home Page </a> The RP has aquired many fans, who are interested in experimenting with software and hardware. </p> The hardware is based on the very successful ARM chipset and, typically, the software is a standard Linux operating system, supported nearly all common programming and scripting languages. </p>
+<p>The Weather Station Project is implemented using the Raspberry Pi, which is a credit card sized computer. <a href="http://www.raspberrypi.org/"> RP Home Page </a> The RP has aquired many fans, who are interested in experimenting with software and hardware. </p> <p> The hardware is based on the very successful ARM chipset and, typically, the software is a standard Linux operating system, supported nearly all common programming and scripting languages. </p>
 
 
 
@@ -56,7 +55,7 @@
 <div id="sidebarcontents"> 
 <ul id="menu">
 <li>
-  <h2>Our Services</h2>
+  <h2>Station Functions</h2>
 </li>
 <li>
 	<ul><li><a href="/home/">Home (Temperature)</a></li>
