@@ -144,6 +144,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 	'rango',
 	'about',
+	'home',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
@@ -189,6 +190,8 @@ STATIC_URL = '/static/' # You may find this is already defined as such.
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "/static/"),
     '/home/michael/python/tango_with_django_project/static/',
+	'/home/michael/python/about/static/',
+	'/home/michael/python/home/static/',
 )
 
 

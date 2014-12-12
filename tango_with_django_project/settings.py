@@ -133,6 +133,7 @@ TEMPLATE_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
     '/home/michael/python/about/templates',
+    '/home/michael/python/home/templates',
 )
 
 INSTALLED_APPS = (
@@ -144,6 +145,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 	'rango',
 	'about',
+	'home',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
@@ -190,6 +192,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "/static/"),
     '/home/michael/python/tango_with_django_project/static/',
 	'/home/michael/python/about/static/',
+	'/home/michael/python/home/static/',
 )
 
 

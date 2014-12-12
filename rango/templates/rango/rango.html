@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+{% load staticfiles %} <!-- New line -->
+
+<html>
+
+    <head>
+        <title>Weather station</title>
+<META HTTP-EQUIV="refresh" CONTENT="600">
+    </head>
+
+    <body>
+        <h1>The Current Temprature is:</h1>
+        
+
+        <img src="{% static 'myfig.png' %}" alt="Picture of Rango" /> <!-- New line -->
+    
+<script>
+			document.write ('<p>Current time is: <span id="date-time">', new 		Date		().toLocaleString(), '<\/span>.<\/p>')
+			if (document.getElementById) onload = function () {
+			setInterval ("document.getElementById ('date-time').firstChild.data = new 				Date().toLocaleString()", 50)
+}
+		
+
+</script>
+
+<table border="0" cellspacing="0" cellpadding="0"><tr><td align="center"><script type="text/javascript" src="http://www.worldtimeserver.com/clocks/embed.js"></script><script type="text/javascript" language="JavaScript">objAUVIC=new Object;objAUVIC.wtsclock="wtsclock001.swf";objAUVIC.color="FFFF00";objAUVIC.wtsid="AU-VIC";objAUVIC.width=200;objAUVIC.height=200;objAUVIC.wmode="transparent";showClock(objAUVIC);</script></td></tr><tr><td align="center"><h2>Melbourne</h2></td></tr></table>
+
+
+</body>
+
+</html>

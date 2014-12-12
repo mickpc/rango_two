@@ -8,7 +8,7 @@
 <title>Design by Michael Carey</title>
 
 <link href="{{STATIC_URL}}style.css" rel="stylesheet" type="text/css" />
-<META HTTP-EQUIV="refresh" CONTENT="600">
+<META HTTP-EQUIV="refresh" CONTENT="15">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
   <h1 id="sitename"><a href="http://www.zonnebank-studio-vergelijk.nl" target="_blank">The Solar Monitor Project</a></h1>
   <div id="menus">
   <ul id="topmenu">
-<li  class="active"><a href="/home/">Home</a>
+<li  class="active"><a href="/rango/">Home</a>
 </li>
 <li><a href="/about/">About the project</a>
 </li>
@@ -35,13 +35,12 @@
 
 <div id="content">
 <div id="mainpage">
-<h2>About the Weather Station Monitor</h2>
+<h2>Welcome to the Solar Montior Home Page!</h2>
 
-<p>The Weather Station project was initiated to monitor the weather patterns for a particular location over the internet.</p>
-<p>It is an example of using internet connectivity along with hardware and software design to accomplish an overall system design to suit an application.</p>
-
+<p>Below you will find the graph of the power production figure for the last 24 hours. This is the power output for the Solar Generating Plant in total for the daylight hours.</p>
 
 
+<img src="{% static 'myfig.png' %}" alt="Picture of Rango" width = "480" height = "400" />
 
  
 
