@@ -15,7 +15,7 @@
 <div class="style3"></div><div class="style_2"><span class="style3"><a href="http://www.zonnebank-studio-vergelijk.nl" title="Zonnebank Zonnestudio"><strong>Zonnebank zonnestudio</strong></a></span></div>
 <div id="wrap">
 <div id="topbar">
-  <h1 id="sitename"><a href="http://www.zonnebank-studio-vergelijk.nl" target="_blank">The Solar Monitor Project</a></h1>
+  <h1 id="sitename"><a href="http://www.zonnebank-studio-vergelijk.nl" target="_blank">The Weather Station Project</a></h1>
   <div id="menus">
   <ul id="topmenu">
 <li  class="active"><a href="/rango/">Home</a>
@@ -35,7 +35,7 @@
 
 <div id="content">
 <div id="mainpage">
-<h2>Welcome to the Solar Montior Home Page!</h2>
+<h2>Welcome to the Weather Station Home Page!</h2>
 
 <p>Below you will find the graph of the power production figure for the last 12 hours. This is the power output for the Solar Generating Plant in total for the daylight hours.</p>
 
@@ -73,7 +73,7 @@
 
 </div>
 <div id="footer">
-<p>Site design My Michael C| <a href="#">Sitemap</a></p>
+<p>Site design by Michael C| <a href="#">Sitemap</a></p>
 </div>
 
 
